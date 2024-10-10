@@ -129,12 +129,7 @@ fun HomeScreen(viewModel: HomeViewModel) {
                             WeatherDetails(data = result.data)
                         }
 
-                        null -> {
-                            Text(
-                                text = "Hello there! Ralph is cute!",
-                                fontFamily = FontFamily.Monospace
-                            )
-                        }
+                        null -> {}
                     }
                 }
             }
